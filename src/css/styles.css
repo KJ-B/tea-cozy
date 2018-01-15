@@ -10,6 +10,8 @@ header, .headnav {
   width: 100%;
   display: flex;
   align-items: center;
+  width: 99%;
+  padding: 0px 10px;
 }
 
 .headnav {
@@ -20,4 +22,12 @@ header, .headnav {
 .headnav a {
   color: seashell;
   padding-left: 20px;
+}
+
+.header {
+  height: 69px;
+}
+
+img {
+  height: 59px;
 }
