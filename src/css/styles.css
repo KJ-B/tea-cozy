@@ -31,3 +31,30 @@ header, .headnav {
 img {
   height: 59px;
 }
+
+.container {
+  display: inline-block;
+}
+
+.banner {
+  background: url('images/img-mission-background.jpg');
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 700px;
+  width: 1200px;
+  margin-left: 105px;
+}
+
+.bannertext {
+  display: inline-block;
+  flex-direction: column;
+  align-items: center;
+  background-color: black;
+  width: 100%;
+}
+
+div.bannertext {
+  display: flex;
+  height: 150px;
+}
