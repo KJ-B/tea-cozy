@@ -1,5 +1,5 @@
 body {
-  font-family: "Helvetica" sans-serif;
+  font-family: "Helvetica", sans-serif;
   font-size: 22px;
   background-color: black;
   opacity: 0.9;
@@ -10,8 +10,14 @@ header, .headnav {
   width: 100%;
   display: flex;
   align-items: center;
-  width: 99%;
+  width: 100%;
   padding: 0px 10px;
+}
+
+.container, {
+  display: inline-block;
+  align-items: center;
+  justify-content: center;
 }
 
 .headnav {
@@ -32,10 +38,11 @@ img {
   height: 59px;
 }
 
-/*.container {
-  display: inline-block;
+div.specials {
+  width: 100%;
+  padding-top: 35px;
+}
 
-}*/
 
 .banner, .bannertext, .specials {
   display: flex;
@@ -45,18 +52,19 @@ img {
 
 .banner {
   background: url('images/img-mission-background.jpg');
+  background-repeat: no-repeat;
   height: 700px;
   width: 1200px;
-  margin-left: 105px;
+  margin-left: 115px;
 }
 
-.bannertext {
+.bannertext, .specials {
   flex-direction: column;
   background-color: black;
   width: 100%;
 }
 
-h2.mission {
+h2.mission, .specials h2{
   height: 1px;
 }
 
