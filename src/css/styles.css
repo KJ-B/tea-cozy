@@ -14,11 +14,12 @@ header, .headnav {
   padding: 0px 10px;
 }
 
-.container, {
+/*section {
   display: inline-block;
   align-items: center;
   justify-content: center;
-}
+  flex-wrap: wrap;
+}*/
 
 .headnav {
   display: flex;
@@ -43,7 +44,7 @@ div.specials {
   padding-top: 35px;
 }
 
-.banner, .bannertext, .specials {
+.banner, .bannertext, .specials, section.teapalooza {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -68,46 +69,40 @@ h2.mission, .specials h2{
 }
 
 div.bannertext {
-  height: 110px;
+  height: 100px;
 }
 
 .specials, .teapalooza {
   width: 1000px;
 }
 
-h4.teapalooza {
-  margin-top: : 100px;
+.teapalooza h4, .teapaloozaa h4 {
+  margin-top: 10px;
 }
 
-.teapalooza {
+.teapalooza, .teapaloozaa, .names {
   display: flex;
   text-align: center;
   flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-around;
+  justify-content: center;
   width: 100%;
 }
 
-div.teapalooza{}
-
-.teapalooza img {
+.teapalooza img, .teapaloozaa img {
   width: 300px;
   height: 200px;
   padding: 0px 15px
 }
 
-section .teapalooza {
-  justify-content: center;
-}
-
 .locations {
   background: url('images/img-locations-background.jpg');
   background-repeat: no-repeat;
-  height: 500px;
+  height: 600px;
   display: flex;
   text-align: center;
   justify-content: center;
   align-items: center;
+  opacity: 1;
 
 }
 
@@ -120,4 +115,13 @@ section .teapalooza {
 footer {
   text-align: center;
   height: 200px;
+}
+
+footer h5 {
+  padding-top: 10px;
+}
+
+.names {
+  align-items: center;
+  padding: 0px 15px;
 }
