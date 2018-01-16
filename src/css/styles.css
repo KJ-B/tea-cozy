@@ -32,10 +32,10 @@ img {
   height: 59px;
 }
 
-.container {
+/*.container {
   display: inline-block;
 
-}
+}*/
 
 .banner, .bannertext, .specials {
   display: flex;
@@ -56,8 +56,12 @@ img {
   width: 100%;
 }
 
+h2.mission {
+  height: 1px;
+}
+
 div.bannertext {
-  height: 150px;
+  height: 110px;
 }
 
 .specials {
