@@ -6,20 +6,27 @@ body {
   color: seashell;
 }
 
+header {
+  position: fixed;
+  z-index: 10;
+  background: black;
+  top: 0px;
+  height: 69px;
+  padding: 10px;
+  border-bottom: white 1px solid;
+}
+
 header, .headnav {
   width: 100%;
   display: flex;
   align-items: center;
-  width: 100%;
+  width: 98.5%;
   padding: 0px 10px;
 }
 
-/*section {
-  display: inline-block;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-}*/
+.container {
+  padding-top: 63px;
+}
 
 .headnav {
   display: flex;
@@ -31,11 +38,7 @@ header, .headnav {
   padding-left: 20px;
 }
 
-.header {
-  height: 69px;
-}
-
-img {
+header img {
   height: 59px;
 }
 
@@ -44,7 +47,7 @@ div.specials {
   padding-top: 35px;
 }
 
-.banner, .bannertext, .specials, section.teapalooza {
+.banner, .bannertext, .specials, section.teapalooza{
   display: flex;
   align-items: center;
   justify-content: center;
@@ -80,7 +83,7 @@ div.bannertext {
   margin-top: 10px;
 }
 
-.teapalooza, .teapaloozaa, .names {
+.teapalooza, .teapaloozaa {
   display: flex;
   text-align: center;
   flex-wrap: wrap;
@@ -94,11 +97,14 @@ div.bannertext {
   padding: 0px 15px
 }
 
-.locations {
+
+
+.names {
   background: url('images/img-locations-background.jpg');
   background-repeat: no-repeat;
   height: 600px;
   display: flex;
+  flex-direction: column;
   text-align: center;
   justify-content: center;
   align-items: center;
@@ -121,7 +127,37 @@ footer h5 {
   padding-top: 10px;
 }
 
-.names {
+div.bayside {
+  margin: 0px 40px;
+}
+
+.bayside {
+  margin: 0px 40px;
+}
+
+div.names {
+  width: 75%;
+}
+
+div.locations {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
-  padding: 0px 15px;
+}
+
+.areas {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 325px;
+  padding-bottom: 30px;
+}
+
+.locations h3 {
+  height: 15px;
+}
+
+.downtown h3, .downtown h4, .bayside h3, .bayside h4, .oakdale h3, .oakdale h4 {
+  padding-top: 15px;
 }
