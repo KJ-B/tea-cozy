@@ -43,7 +43,6 @@ div.specials {
   padding-top: 35px;
 }
 
-
 .banner, .bannertext, .specials {
   display: flex;
   align-items: center;
@@ -72,18 +71,47 @@ div.bannertext {
   height: 110px;
 }
 
-.specials {
+.specials, .teapalooza {
   width: 1000px;
+}
+
+h4.teapalooza {
+  margin-top: : 100px;
 }
 
 .teapalooza {
   display: flex;
   text-align: center;
   flex-wrap: wrap;
+  align-items: center;
   justify-content: space-around;
-
+  width: 1000px;
 }
+
+div.teapalooza{}
 
 .teapalooza img {
   width: 300px;
   height: 200px;
+  padding: 0px 15px
+}
+
+section .teapalooza {
+  justify-content: center;
+}
+
+.locations {
+  background: url('images/img-locations-background.jpg');
+  background-repeat: no-repeat;
+  height: 500px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.downtown, .bayside, .oakdale {
+  width: 300px;
+  height: 300px;
+  background-color: black;
+}
