@@ -42,18 +42,18 @@ header img {
   height: 59px;
 }
 
-div.specials {
+div#specials {
   width: 100%;
   padding-top: 35px;
 }
 
-.banner, .bannertext, .specials, section.teapalooza{
+#banner, .bannertext, #specials, section.teapalooza{
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.banner {
+#banner {
   background: url('images/img-mission-background.jpg');
   background-repeat: no-repeat;
   height: 700px;
@@ -61,13 +61,13 @@ div.specials {
   margin-left: 110px;
 }
 
-.bannertext, .specials {
+.bannertext, #specials {
   flex-direction: column;
   background-color: black;
   width: 100%;
 }
 
-h2.mission, .specials h2{
+h2.mission, #specials h2{
   height: 1px;
 }
 
@@ -75,7 +75,7 @@ div.bannertext {
   height: 100px;
 }
 
-.specials, .teapalooza {
+#specials, .teapalooza {
   width: 1000px;
 }
 
@@ -139,7 +139,7 @@ div.names {
   width: 75%;
 }
 
-div.locations {
+div#locations {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -154,7 +154,7 @@ div.locations {
   padding-bottom: 30px;
 }
 
-.locations h3 {
+#locations h3 {
   height: 15px;
 }
 
